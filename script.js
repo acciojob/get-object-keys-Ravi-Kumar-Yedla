@@ -1,8 +1,12 @@
 //your JS code here. If requi
 const student = {
-	name: "Ravi"
+  name: "John Doe"
 };
-object.prototype.getkeys = function(){
-	return Object.keys(this);
+
+// Add the getKeys method to the Object prototype
+Object.prototype.getKeys = function() {
+  return Object.keys(this);
 };
-console.log(student.getkeys())
+
+// Test the getKeys method on the student object
+console.log(student.getKeys()); // Output: ['name']

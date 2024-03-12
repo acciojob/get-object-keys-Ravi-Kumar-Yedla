@@ -1,1 +1,7 @@
-//your JS code here. If required.
+//your JS code here. If requi
+const student = {
+	name: "Ravi"
+}
+object.prototype.getkeys(){
+	return object.keys(this);
+}
